@@ -60,6 +60,8 @@ After you're finished please remove all the comments and instructions!
 # 📖 Hello Rails BackEnd <a name="about-project"></a>
 
 > A basic rails API that works as a backend to display random greetings.
+>
+> [Link to the FrontEnd App (hello-react-front-end).](https://github.com/Luiscarlosvd/hello-react-front-end/pull/1)
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -159,7 +161,7 @@ Install this project with:
 To run the project, execute the following command:
 
 ```
-rails s
+rails server -p 3001
 ```
 **Note:** If there are any errors consider adding your necesary username and password in `database.yml` for setting up your local enviroment and use the following comand:
 
